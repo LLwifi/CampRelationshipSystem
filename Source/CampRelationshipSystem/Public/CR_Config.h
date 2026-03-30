@@ -79,7 +79,7 @@ public:
 /**
  * 阵营相关的开发人员配置项
  */
-UCLASS(config = Camp, defaultconfig)
+UCLASS(config = CR_Config, defaultconfig)
 class CAMPRELATIONSHIPSYSTEM_API UCR_Config : public UDeveloperSettings
 {
 	GENERATED_BODY()
